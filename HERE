@@ -11,9 +11,10 @@
 + change tests folder structure to mirror folder structure of projects
   : Tests/Classes/$etc $tests/Functions/$etc
 
-- simplify index.js entry
++ simplify index.js entry
   " no need to construct object can just export those selections directly 
     ? will this break JSDoc parsing 
+        ' nope
 
 - specify mjs and cjs in package.json
   " this is not yet a documented option
