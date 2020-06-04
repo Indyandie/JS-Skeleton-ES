@@ -1,0 +1,19 @@
+
+
+
+- add jsconfig.json 
+
+? change output folder from o to dist
+    " it makes sense especially if it was expected in a cdn but these projects
+      are really not for the internet any way and it helps keep me in the c
+      frame of mind
+
+- change tests folder structure to mirror folder structure of projects
+  : Tests/Classes/$etc $tests/Functions/$etc
+
+- simplify index.js entry
+  " no need to construct object can just export those selections directly 
+    ? will this break JSDoc parsing 
+
+- specify mjs and cjs in package.json
+  " this is not yet a documented option
