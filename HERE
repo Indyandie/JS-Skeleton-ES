@@ -1,7 +1,7 @@
 
 
 
-- add jsconfig.json 
++ add jsconfig.json 
 
 ? change output folder from o to dist
     " it makes sense especially if it was expected in a cdn but these projects
