@@ -20,8 +20,8 @@
     "make-minify-iife": "./node_modules/uglify-es/bin/uglifyjs o/index.iife.js > o/index.iife.js",
     "make-minify-all": "npm run-script make-minify-cjs ; npm run-script make-minify-mjs; npm run-script make-minify-iife",
     "make-readme": "./node_modules/.bin/jsdoc2md --template README.hb --files index.js Classes/*.js Functions/*.js > README.md",
-    "test": "./node_modules/.bin/mocha Tests",
-    "test-coverage": "./node_modules/c8/bin/c8.js ./node_modules/.bin/mocha Tests"
+    "test": "./node_modules/.bin/mocha Tests Tests/Functions Tests/Classes",
+    "test-coverage": "./node_modules/c8/bin/c8.js ./node_modules/.bin/mocha Tests Tests/Functions Tests/Classes"
   },
   "devDependencies": {
     "@types/expect.js": "^0.3.29",

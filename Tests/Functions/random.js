@@ -2,7 +2,7 @@ import assert from 'assert'
 import expect from 'expect.js'
 import sinon  from 'sinon'
 
-import random from '../Functions/random.js'
+import random from '../../Functions/random.js'
 
 describe('#random',function(){
 

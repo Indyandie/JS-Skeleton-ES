@@ -2,7 +2,7 @@ import assert from 'assert'
 import expect from 'expect.js'
 import sinon  from 'sinon'
 
-import Point from '../Classes/Point.js'
+import Point from '../../Classes/Point.js'
 
 describe('Point',function(){
 

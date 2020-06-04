@@ -8,7 +8,7 @@
       are really not for the internet any way and it helps keep me in the c
       frame of mind
 
-- change tests folder structure to mirror folder structure of projects
++ change tests folder structure to mirror folder structure of projects
   : Tests/Classes/$etc $tests/Functions/$etc
 
 - simplify index.js entry
