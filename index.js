@@ -4,4 +4,7 @@ import random from './Functions/random.js'
 /**
  * @namespace JS-Skeleton-ES
  */
-export default {random, Point }
+export {
+     Point  as Point,
+     random as random
+}
