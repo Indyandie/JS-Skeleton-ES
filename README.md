@@ -41,7 +41,7 @@ Get position of Point
 <a name="JS-Skeleton-ES.random"></a>
 
 ### JS-Skeleton-ES.random() ⇒ <code>number</code>
-Returns a number in the range of 0 to 100
+Returns a random number
 
 **Kind**: static method of [<code>JS-Skeleton-ES</code>](#JS-Skeleton-ES)  
 **Returns**: <code>number</code> - A number in the range of 0 to 100  
