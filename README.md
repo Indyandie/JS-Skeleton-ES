@@ -7,28 +7,19 @@ A skeleton Project for Javascript Libraries
 **Kind**: global namespace  
 
 * [JS-Skeleton-ES](#JS-Skeleton-ES) : <code>object</code>
-    * _static_
-        * [.module.exports()](#JS-Skeleton-ES.module.exports) ⇒ <code>number</code>
-    * _inner_
-        * [~Point](#JS-Skeleton-ES.Point)
-            * [new Point(x, y)](#new_JS-Skeleton-ES.Point_new)
-            * [.getPosition()](#JS-Skeleton-ES.Point+getPosition) ⇒ <code>number</code> \| <code>Array</code>
+    * [.Point](#JS-Skeleton-ES.Point)
+        * [new Point(x, y)](#new_JS-Skeleton-ES.Point_new)
+        * [.getPosition()](#JS-Skeleton-ES.Point+getPosition) ⇒ <code>number</code> \| <code>Array</code>
+    * [.random()](#JS-Skeleton-ES.random) ⇒ <code>number</code>
 
-<a name="JS-Skeleton-ES.module.exports"></a>
-
-### JS-Skeleton-ES.module.exports() ⇒ <code>number</code>
-Returns a number in the range of 0 to 100
-
-**Kind**: static method of [<code>JS-Skeleton-ES</code>](#JS-Skeleton-ES)  
-**Returns**: <code>number</code> - A number in the range of 0 to 100  
 <a name="JS-Skeleton-ES.Point"></a>
 
-### JS-Skeleton-ES~Point
+### JS-Skeleton-ES.Point
 A class containing the X and Y position of a 2D point
 
-**Kind**: inner class of [<code>JS-Skeleton-ES</code>](#JS-Skeleton-ES)  
+**Kind**: static class of [<code>JS-Skeleton-ES</code>](#JS-Skeleton-ES)  
 
-* [~Point](#JS-Skeleton-ES.Point)
+* [.Point](#JS-Skeleton-ES.Point)
     * [new Point(x, y)](#new_JS-Skeleton-ES.Point_new)
     * [.getPosition()](#JS-Skeleton-ES.Point+getPosition) ⇒ <code>number</code> \| <code>Array</code>
 
@@ -47,6 +38,13 @@ A class containing the X and Y position of a 2D point
 Get position of Point
 
 **Kind**: instance method of [<code>Point</code>](#JS-Skeleton-ES.Point)  
+<a name="JS-Skeleton-ES.random"></a>
+
+### JS-Skeleton-ES.random() ⇒ <code>number</code>
+Returns a number in the range of 0 to 100
+
+**Kind**: static method of [<code>JS-Skeleton-ES</code>](#JS-Skeleton-ES)  
+**Returns**: <code>number</code> - A number in the range of 0 to 100  
 
 ## Notes
 
