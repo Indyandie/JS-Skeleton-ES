@@ -10,7 +10,7 @@ describe('Point',function(){
 
 	describe('#getPoint()',function(){
 		it('should have position [0,0]',function(){
-		assert.deepEqual(point.getPosition(),[0,0])
+		assert.deepStrictEqual(point.getPosition(),[0,0])
 		})
 	})
 })
