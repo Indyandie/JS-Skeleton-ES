@@ -14,11 +14,11 @@
     "make-build-cjs": "rollup index.js --format cjs  --file o/index.cjs",
     "make-build-mjs": "rollup index.js --format es   --file o/index.mjs",
     "make-build-iife": "rollup index.js --format iife --file o/index.iife.js --name JS_Skeleton_ES",
-    "make-build-all": "npm run-script test &&  npm run-script make-clean && npm run-script make-build-cjs && npm run-script make-build-mjs && npm run-script make-build-iife ",
+    "make-build-all": "npm run test &&  npm run make-clean && npm run make-build-cjs && npm run make-build-mjs && npm run make-build-iife ",
     "make-minify-cjs": "uglifyjs o/index.cjs     -o o/index.min.cjs",
     "make-minify-mjs": "uglifyjs o/index.mjs     -o o/index.min.mjs",
     "make-minify-iife": "uglifyjs o/index.iife.js -o o/index.iife.js",
-    "make-minify-all": "npm run-script make-minify-cjs && npm run-script make-minify-mjs && npm run-script make-minify-iife",
+    "make-minify-all": "npm run make-minify-cjs && npm run make-minify-mjs && npm run make-minify-iife",
     "make-readme": "jsdoc2md --template README.hb --files index.js Classes/*.js Functions/*.js > README.md",
     "test": "mocha Tests Tests/Functions Tests/Classes",
     "test-coverage": "c8 ./node_modules/.bin/mocha Tests Tests/Functions Tests/Classes"
